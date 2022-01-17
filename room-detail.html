@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Detail</title>
+    <!-- flickity-slider Link -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- =============== Font Awesome Icons Link ==================== -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- Oswald Font Family -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Jost Font Family -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,900&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <!-- Parent Css Link -->
+    <link rel="stylesheet" href="assets/css/header.css">
+    <!-- Start site Css Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body id="topTopPoint">
+
+    <a id="close_mobile_menu" href="javascript:;"></a>
+    <div class="mobile_menu_wrapper">
+        <div class="mobile_menu_content">
+            <div class="menu-main-menu-container">
+                <ul id="mobile_main_menu" class="mobile_main_nav">
+                    <li>
+                        <a href="#">Startseite</a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">Zimmer &amp; Suiten</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">Zimmer</a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">Einzelzimmer</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Doppelzimmer</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dreibettzimmer</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Suiten</a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">Junior
+                                            Suite</a>
+                                    </li>
+                                    <li>
+                                        <a  href="#">Junior
+                                            Suite Meerblick</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Suite</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">Angebote &amp;
+                            Arrangements</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Zimmerangebote</a>
+                            </li>
+                            <li><a href="#">Wellness
+                                    Angebote</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">Restaurant</a>
+                         <ul class="sub-menu">
+                            <li><a href="#">Menüs</a></li>
+                            <li><a href="#">Speisekarte</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Spa</a></li>
+                    <li><a href="#">Galerie</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Über uns</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+                <div id="submenu_container">
+                    <a href="#" class="close-sidebar-submenu">
+                        <i class="fa fa-angle-left"></i> BACK
+                    </a>
+                    <div class="slide-in-menu"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="main" id="wrapper">
+        <div class="wrapper-inner">
+            <!-- Header Section -->
+            <header class="main-header">
+                <div class="custom-container">
+                    <nav class="navbar navbar-expand-lg p-0">
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/images/logo_white@2x.png" class="white" alt="Brand Logo">
+                            <img src="assets/images/logo-black.png" class="black" alt="Brand Logo">
+                        </a>
+                        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button> -->
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a href="#">Startseite</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Zimmer & Suiten
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li class="second-level-dropdown">
+                                            <a class="dropdown-item" href="#">
+                                                <span>Action</span>
+                                            </a>
+                                            <div class="second-level-menu">
+                                                <a class="dropdown-item" href="#"><span>Action</span></a>
+                                                <a class="dropdown-item" href="#"><span>Another action</span></a>
+                                            </div>
+                                        </li>
+                                        <li class="second-level-dropdown">
+                                            <a class="dropdown-item" href="#"><span>Another action</span></a>
+                                            <div class="second-level-menu">
+                                                <a class="dropdown-item" href="#"><span>Action</span></a>
+                                                <a class="dropdown-item" href="#"><span>Another action</span></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Angebote & Arrangements
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li class="second-level-dropdown">
+                                            <a class="dropdown-item" href="#">
+                                                <span>Action</span>
+                                            </a>
+                                            <div class="second-level-menu">
+                                                <a class="dropdown-item" href="#"><span>Action</span></a>
+                                                <a class="dropdown-item" href="#"><span>Another action</span></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"><span>Another action</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Restaurant
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#"><span>Action</span></a>
+                                        <a class="dropdown-item" href="#"><span>Another action</span></a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Spa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Galerie</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Über uns</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Kontakt</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-icon">
+                            <a href="#"><i class="fa fa-bars toggle-icon"></i></a>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- Hero Section -->
+            <section class="hero-section">
+                  <div class="row">
+                    <div class="col-12">
+                        <div class="room-detail-slide">
+                            <div class="rd-main">
+                                <div class="overly">
+                                    <div class="container">
+                                        <div class="einzimmer-content">
+                                            <div class="enizmer-text">
+                                                <h1>Einzelzimmer</h1>
+                                                <span>ab 99€ / Nacht</span>
+                                                <div class="einzimmer-list">
+                                                    <ul>
+                                                        <li><a href="#">Zimmerbeschreibung</a></li>
+                                                        <li><a href="#">Ausstattung</a></li>
+                                                        <li><a href="#">Impressionen</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Room Pricing -->
+            <section class="room-pricing">
+                <div class="custom-container rmp-container">
+                    <div class="cstm-cont-main">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-12">
+                                <div class="rm-pricing-left">
+                                    <p><strong>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor. </strong></p>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, notrus.</p>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="rm-pricing-right">
+                                    <div class="single-rm-price">
+                                        <div class="srp-text">
+                                            <span>Ab</span>
+                                            <h2>99€</h2>
+                                        </div>
+                                        <div class="srp-button">
+                                            <a href="#">Verfügbarkeit prüfen</a>
+                                        </div>
+                                    </div>
+                                    <div class="single-rm-icons">
+                                        <div class="room-icon">
+                                            <div class="sri-icon sri-bed-icon">
+                                                <img src="assets/images/icon_bed.png" alt="">
+                                            </div>
+                                            <div class="sri-text">
+                                                <p>Einzelbett 90 x 200</p>
+                                            </div>
+                                        </div>
+                                        <div class="room-icon">
+                                            <div class="sri-icon sri-child-icon">
+                                                <img src="assets/images/icon_people.png" alt="">
+                                            </div>
+                                            <div class="sri-text">
+                                                <p>1 Erwachsene 1 Kind </p>
+                                            </div>
+                                        </div>
+                                        <div class="room-icon">
+                                            <div class="sri-icon sri-child-icon">
+                                                <img src="assets/images/icon_size.png" alt="">
+                                            </div>
+                                            <div class="sri-text">
+                                                <p>25m²</p>
+                                            </div>
+                                        </div>
+                                        <div class="room-icon">
+                                            <div class="sri-icon sri-child-icon">
+                                                <img src="assets/images/icon_view.png" alt="">
+                                            </div>
+                                            <div class="sri-text">
+                                                <p>Stadtsicht</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Amenities -->
+            <section class="amenities">
+                <div class="container">
+                    <div class="amenities-inner">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="room-amenti-content">
+                                    <div class="amenti-box">
+                                        <img src="assets/images/icon_amenities.png" alt="">
+                                    </div>
+                                    <div class="amenti-text">
+                                        <p>Ausstattung</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                               <div class="amenti-list">
+                                <ul>
+                                    <li>40-inch Samsung® LED TV</li>
+                                    <li>Bügeleisen & Bügelbrett</li>
+                                    <li>iHome™ Bluetooth MP3 Player</li>
+                                    <li>kostenfreies Wifi</li>
+                                    <li>Mini bar</li>
+                                    <li>Nichtraucherzimmer</li>
+                                    <li>Schreibtisch</li>
+                                    <li>USB Ladestation</li>
+                                    <li>Zimmersafe mit Steckdose</li>
+                                </ul>
+                               </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="room-amenti-content">
+                                    <div class="amenti-box">
+                                        <img src="assets/images/icon_services.png" alt="">
+                                    </div>
+                                    <div class="amenti-text">
+                                        <p>Services</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                               <div class="amenti-list">
+                                <ul>
+                                    <li>
+                                        Kostenfreie Minibar ( <span>Free</span> )
+                                    </li>
+                                    <li>
+                                        Kostenfreie Telefongespräche ( <span>Free</span> )
+                                    </li>
+                                </ul>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Flickity Slider -->
+            <section class="flickity-slider">
+                <div class="carousel" data-flickity='{ "fullscreen": true, "loop": true, "contain": true, "groupCells": 1.5, "lazyLoad": true  }' data-autoplay="0" data-loop="0" data-navigation="1" data-pagination="0" data-parallax="0" data-fullscreen="0" tabindex="0">
+                    <div class="carousel-cell room-carousel-cell">
+                        <img src="assets/images/AdobeStock_66247672.jpeg" alt="">
+                    </div>
+                    <div class="carousel-cell room-carousel-cell">
+                        <img src="assets/images/AdobeStock_2.jpeg" alt="">
+                    </div>
+                    <div class="carousel-cell room-carousel-cell">
+                        <img src="assets/images/AdobeStock_3.jpeg" alt="">
+                    </div>
+                    <div class="carousel-cell room-carousel-cell">
+                        <img src="assets/images/AdobeStock_4.jpeg" alt="">
+                    </div>
+                    <div class="carousel-cell room-carousel-cell">
+                        <img src="assets/images/AdobeStock_5.jpeg" alt="">
+                    </div>
+                    <div class="carousel-cell room-carousel-cell">
+                        <img src="assets/images/AdobeStock_6.jpeg" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- Weitere Zimmer -->
+            <section class="weitere">
+                <div class="weitere-inner">
+                    <div class="custom-container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="weitere-text">
+                                    <h2>Weitere Zimmer</h2>
+                                    <h5>Die für Sie von Interesse sein könnten</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="weitere-block">
+                                   <div class="weitere-box weitere-box-1">
+                                       <div class="weitere-box-hover"></div>
+                                   </div>
+                                   <div class="weitere-text">
+                                       <h3>Suite</h3>
+                                       <div class="weitere-value">
+                                            <div class="value">
+                                                <h5>95</h5>
+                                                <p>m<sup>2</sup></p>
+                                            </div>
+                                            <div class="value">
+                                                <h5>4</h5>
+                                                <p>Erwachsene</p>
+                                            </div>
+                                            <div class="value">
+                                                <h5>3</h5>
+                                                <p>Kind</p>
+                                            </div>
+                                       </div>
+                                       <div class="weitere-btn">
+                                        <a href="#">Buchen Sie jetzt ab <span>499€</span></a>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="weitere-block">
+                                    <div class="weitere-box weitere-box-2">
+                                        <div class="weitere-box-hover"></div>
+                                    </div>
+                                    <div class="weitere-text">
+                                        <h3>Dreibettzimmer</h3>
+                                        <div class="weitere-value">
+                                             <div class="value">
+                                                 <h5>45</h5>
+                                                 <p>m<sup>2</sup></p>
+                                             </div>
+                                             <div class="value">
+                                                 <h5>3</h5>
+                                                 <p>Erwachsene</p>
+                                             </div>
+                                             <div class="value">
+                                                 <h5>1</h5>
+                                                 <p>Kind</p>
+                                             </div>
+                                        </div>
+                                        <div class="weitere-btn">
+                                         <a href="#">Buchen Sie jetzt ab <span>129€</span></a>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 m-auto">
+                                <div class="weitere-block">
+                                    <div class="weitere-box weitere-box-3">
+                                        <div class="weitere-box-hover"></div>
+                                    </div>
+                                    <div class="weitere-text">
+                                        <h3>Junior Suite</h3>
+                                        <div class="weitere-value">
+                                             <div class="value">
+                                                 <h5>55</h5>
+                                                 <p>m<sup>2</sup></p>
+                                             </div>
+                                             <div class="value">
+                                                 <h5>1</h5>
+                                                 <p>Erwachsene</p>
+                                             </div>
+                                             <div class="value">
+                                                 <h5>1</h5>
+                                                 <p>Kind</p>
+                                             </div>
+                                        </div>
+                                        <div class="weitere-btn">
+                                         <a href="#">Buchen Sie jetzt ab <span>199€</span></a>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer -->
+            <footer>
+                <div class="footer-main start-footer">
+                    <div class="custom-container footer-container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="footer-item">
+                                    <h6>B2K Hotel</h6>
+                                    <p>Kronberger Str. 12<br>
+                                        14193 Berlin</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="footer-item footer-item-2">
+                                    <p>Tel.: +49 (0)30 202 36 55 70 <br>
+                                    info@b2k-media.de</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copy-right-part start-copy-right">
+                        <div class="custom-container start-end">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6">
+                                    <p>© Copyright B2K Media</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div class="est-frontend-display-wrap">	
+                <div class="est-external est-tab-type">
+                    <a href="#" target="_blank" class="est-external-link est-tab-link">
+                        Jetzt ab 49€ buchen			</a>
+                </div>			
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- flickity-slider -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+    <!-- Menu icon script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- parent theme script -->
+    <script src="assets/js/header.js"></script>
+    <!-- current theme script -->
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html>
